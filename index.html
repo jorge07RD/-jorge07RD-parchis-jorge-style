@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parchis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="main.js"></script>
+    <div id="die1" class="dice">1</div>
+    <div id="die2" class="dice">1</div>
+    <button onclick="rollDice()">Tira el Dado</button>
+    <h2 id="status" style="clear:left;"></h2>
+    <h2 id="tiro" style="clear:left;"></h2>
+
+    <!--lado rojo//-->
+
+    <div class="ladorojo">
+        
+        <div class="ficharoja" draggable="true"></div>
+        <div class="ficharoja" draggable="true"></div>
+        <div class="ficharoja" draggable="true"></div>
+        <div class="ficharoja" draggable="true"></div>
+    </div>
+          <!--lado azul//-->
+    <div class="ladoazul">
+        
+        <div class="fichaazul" draggable="true"></div>
+        <div class="fichaazul" draggable="true"></div>
+        <div class="fichaazul" draggable="true"></div>
+        <div class="fichaazul" draggable="true"></div>
+    </div>
+      <!--lado verde//-->
+
+    <div class="ladoverde">
+        
+        <div class="fichaverde" draggable="true"></div>
+        <div class="fichaverde" draggable="true"></div>
+        <div class="fichaverde" draggable="true"></div>
+        <div class="fichaverde" draggable="true"></div>
+    </div>
+    
+      <!--lado amarillo//-->
+    <div class="ladoamarillo">
+        
+        <div class="fichaamarillo" draggable="true"></div>
+        <div class="fichaamarillo" draggable="true"></div>
+        <div class="fichaamarillo" draggable="true"></div>
+        <div class="fichaamarillo" draggable="true"></div>
+    </div>
+
+
+    <canvas id="CanvasSpace" width="1000" height="700"></canvas>
+    <div style="display:none;">
+        <img id="source" src="tablero.jpeg"
+        width="300" height="227">
+       </div>
+
+</body>
+</html>

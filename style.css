@@ -1,0 +1,117 @@
+
+#CanvasSpace{
+  
+  background-image: url("tablero.jpeg");
+  
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+div.dice{
+	float:left;
+	width:32px;
+	background:#F5F5F5;
+	border:#999 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+}
+
+.ladorojo{
+	position:absolute;
+	display: flex;
+	margin: 10px;
+	
+	height: 50px;
+	width: 60px;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	margin-left: 250px;
+}
+
+.ficharoja{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	border: 1px solid white;
+
+	
+}
+
+.ladoazul{
+	position:absolute;
+	display: flex;
+	margin: 10px;
+	
+	height: 50px;
+	width: 60px;
+	flex-wrap: wrap;
+	margin-top: 550px;
+	margin-left: 250px;
+}
+
+.fichaazul{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(0, 38, 255);
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	border: 1px solid white;
+
+	
+}
+
+.ladoamarillo{
+	position:absolute;
+	display: flex;
+	margin: 10px;
+	
+	height: 50px;
+	width: 60px;
+	flex-wrap: wrap;
+	margin-top: 550px;
+	margin-left: 700px;
+}
+
+.fichaamarillo{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(172, 201, 9);
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	border: 1px solid white;
+
+	
+}
+
+.ladoverde{
+	position:absolute;
+	display: flex;
+	margin: 10px;
+	
+	height: 50px;
+	width: 60px;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	margin-left: 700px;
+}
+
+.fichaverde{
+	width: 20px;
+	height: 20px;
+	background-color: rgb(53, 190, 11);
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	border: 1px solid white;
+
+	
+}
+
+
+.ficharoja.prueba{
+	opacity:  .5 ;
+}
